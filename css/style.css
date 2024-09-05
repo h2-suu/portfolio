@@ -6067,6 +6067,8 @@ textarea.form-control-lg {
 
 .mb-5 {
   margin-bottom: 3rem !important; }
+.mb-test{
+	margin-left: 3rem !important; }
 
 .mb-auto {
   margin-bottom: auto !important; }
@@ -8641,10 +8643,12 @@ textarea.form-control-lg {
     color: #fff; }
 
 .site-nav {
-  position: absolute;
+  position: fixed;
   top: 0;
   z-index: 9;
-  width: 100%; }
+  width: 100%;
+  background-color: #bfbfbf;
+}
 
 .site-nav {
   padding-top: 20px;
@@ -8660,10 +8664,11 @@ textarea.form-control-lg {
       display: inline-block; }
       .site-nav .site-navigation .site-menu > li > a {
         font-size: 14px;
+		font-weight: bold;
         padding: 10px 15px;
         display: inline-block;
         text-decoration: none !important;
-        color: rgba(255, 255, 255, 0.7); }
+        color: rgba(24, 24, 24, 0.7); }
         .site-nav .site-navigation .site-menu > li > a:hover {
           color: #fff; }
       .site-nav .site-navigation .site-menu > li.cta-button a {
@@ -9079,7 +9084,7 @@ a {
       right: 0;
       bottom: 0;
       z-index: 1;
-      background-color: rgba(0, 0, 0, 0.4); }
+      background-color: rgba(158, 158, 158, 0.2); }
     .hero.overlay > .container, .bg-image.overlay > .container {
       position: relative;
       z-index: 2; }
@@ -9128,8 +9133,8 @@ a {
       padding-bottom: 2rem; } }
 
 .section {
-  padding-top: 7rem;
-  padding-bottom: 7rem; }
+  padding-top: 0rem;
+  padding-bottom: 20rem; }
 
 .number {
   font-size: 70px;
